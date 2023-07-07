@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+     <div class="top">
+         <div class="heading">
+            <!-- <h2>Ez Editor</h2> -->
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <h2 class="animate-charcter"> Ez Editor</h2>
+                  </div>
+                </div>
+              </div>
+
+
+         </div>
+         <div class="toggle">
+             <input type="checkbox" id="modeToggle">
+             <label for="modeToggle"></label>
+         </div>
+     </div>
+
+    <div class="mainarea">
+        <div class="editors">
+            <h2>HTML</h2>
+            <textarea id="html" placeholder="HTML"></textarea>
+        </div>
+        <div class="editors">
+            <h2>CSS</h2>
+            <textarea id="css" placeholder="CSS"></textarea>
+        </div>
+        <div class="editors">
+            <h2>JS</h2>
+            <textarea id="js" placeholder="JS"></textarea>
+        </div>
+    </div>
+
+    <div class="output">
+        <h2>Output</h2>
+        <iframe id="code"></iframe>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
